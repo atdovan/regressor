@@ -10,9 +10,12 @@
 
 <nav class="sidebar">
   <ul>
-    <li><a href="/portfolio">Portfolio</a></li>
-    <li><a href="/stocks">Stocks</a></li>
-    <li><a href="/scripts">Scripts</a></li>
+    <li><img src = "/portfolioIcon.png" class = "icon" alt = "Portfolio Icon"/>
+      <a href="/portfolio">Portfolio</a></li>
+    <li><img src = "/stockicon.png" class = "icon" alt = "Stock Icon"/>
+      <a href="/stocks">Stocks</a></li>
+    <li><img src = "/scriptIcon.png" class = "icon" alt = "Scripts Icon"/>
+      <a href="/scripts">Scripts</a></li>
     <!-- Add more links as needed -->
   </ul>
 
@@ -31,12 +34,20 @@
     justify-content: space-between;
     height: 100vh;
   }
+  .icon{
+    width: 24px;
+    height: 24px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(180deg);
+  }
   .sidebar ul {
     list-style-type: none;
     padding: 0;
   }
-
+  
   .sidebar ul li {
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center;
     margin-bottom: 20px;
   }
 
@@ -44,6 +55,7 @@
     color: #FFFFFF;
     text-decoration: none;
     font-size: 1.1rem;
+    margin-left: 10px;
   }
 
   .sidebar ul li a:hover {
