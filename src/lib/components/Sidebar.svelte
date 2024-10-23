@@ -10,10 +10,9 @@
 
 <nav class="sidebar">
   <ul>
-    <li><a href="/dashboard">Dashboard</a></li>
-    <li><a href="/dashboard/chart-box">Charts</a></li>
-    <li><a href="/dashboard/place-order">Place Order</a></li>
-    <li><a href="/dashboard/order-status">Order Status</a></li>
+    <li><a href="/portfolio">Portfolio</a></li>
+    <li><a href="/stocks">Stocks</a></li>
+    <li><a href="/scripts">Scripts</a></li>
     <!-- Add more links as needed -->
   </ul>
 
@@ -24,7 +23,7 @@
 <style>
   .sidebar {
     width: 150px;
-    background-color: #ddd;
+    background-color: #1C1B44;
     padding: 20px;
     color: black;
     display: flex;
@@ -42,7 +41,7 @@
   }
 
   .sidebar ul li a {
-    color: #000;
+    color: #FFFFFF;
     text-decoration: none;
     font-size: 1.1rem;
   }
